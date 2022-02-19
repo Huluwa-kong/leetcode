@@ -6,6 +6,8 @@ class ListNode:
     def __str__(self):
         return str(self.val)
 
+    __repr__ = __str__
+
 
 def print_list(head: ListNode):
     cur = head
